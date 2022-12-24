@@ -6,7 +6,7 @@ import { slideIn, staggerContainer } from '../utils/motion';
 
 const Hero = () => {
   return (
-      <motion.section variants={slideIn('left', 'tween', 0.9, 1)}
+      <motion.section variants={slideIn('left', 'tween', 0.9, .4)}
       initial="hidden" whileInView="show" className="hero" style={{ backgroundImage: `url(${hero.src})` }}>
         <p>trade-in-offer</p>
         <h1 style={{ lineHeight: '60px', fontSize: '50px' }}>
