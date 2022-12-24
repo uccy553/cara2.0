@@ -12,7 +12,7 @@ import { slideIn } from '../utils/motion';
 const Features = () => {
     return (
         <section>
-            <motion.div variants={slideIn('right', 'tween', 0.9, 1)}
+            <motion.div variants={slideIn('right', 'tween', 0.9, .4)}
                 initial="hidden"
                 whileInView="show"
                 className="features">
