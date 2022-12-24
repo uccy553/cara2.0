@@ -21,7 +21,7 @@ export default function Home({ products, newArrivalsData }) {
       </div>
 
 
-      <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+      <motion.div variants={slideIn('left', 'tween', 0.9, .4)}
       initial="hidden" whileInView="show" className='product-container mb-20'>
         <h2 >Featured Products</h2>
         <p>summer collection new modern design</p>
@@ -31,7 +31,7 @@ export default function Home({ products, newArrivalsData }) {
       </motion.div>
       
 
-      <motion.div variants={slideIn('right', 'tween', 0.9, 1)}
+      <motion.div variants={slideIn('right', 'tween', 0.9, .4)}
       initial="hidden" whileInView="show" className='nt-6 gap-10 flex justify-center items-center' style={{ backgroundImage: `url(${banner.src})`, height: '50vh' }}>
        
           <div className='explore'>
@@ -44,7 +44,7 @@ export default function Home({ products, newArrivalsData }) {
 
       </motion.div>
 
-      <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+      <motion.div variants={slideIn('left', 'tween', 0.9, .4)}
       initial="hidden" whileInView="show" className='product-container1'>
         <h2>New Arrivals</h2>
             <div className='product-con'>
