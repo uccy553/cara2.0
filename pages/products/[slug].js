@@ -57,7 +57,7 @@ const ProductDetails2 = ({ pro2, pro1 }) => {
                     <p className='text-black'>(20)</p>
                 </div>
                 <div className='w-[90%]'>
-                    <h4 className='text-xl font-semibold text-center'>Details: </h4>
+                    <h4 className='text-xl font-semibold text-center mt-7'>Details: </h4>
                     <p className='text-[1.3em] text-center'>{details}</p>
                     <p className='font-bold text-[1.8em]'>${price}</p>
                 </div>
