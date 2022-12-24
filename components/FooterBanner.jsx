@@ -9,7 +9,7 @@ import { slideIn } from '../utils/motion';
 
 const FooterBanner = () => {
   return (
-    <section className='flex mt-10'>
+    <section className='footerBanner mt-10'>
         <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
       initial="hidden" whileInView="show">
             <Link href="/shop">
