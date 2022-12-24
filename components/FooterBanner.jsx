@@ -18,7 +18,7 @@ const FooterBanner = () => {
                         <h4>crazy deals</h4>
                         <h2>buy 1 get 1 free</h2>
                         <span>The best classic dress is on sale at cara</span>
-                        <button className='btn-banner'>Learn more</button>
+                        <button className='bannerbtn'>Learn more</button>
                     </div>
                 </div>
             </Link>
@@ -32,7 +32,7 @@ const FooterBanner = () => {
                     <h4>spring/summer</h4>
                     <h2>Upcoming season</h2>
                     <span>The best classic dress is on sale at cara</span>
-                    <button className='btn-banner'>Collection</button>
+                    <button className='bannerbtn'>Collection</button>
                 </div>
             </div>
             </Link>
