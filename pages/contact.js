@@ -15,7 +15,7 @@ const Contact = () => {
         <p>#Let's Talk</p>
       </motion.div>
       <div className='contact-details'>
-        <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+        <motion.div variants={slideIn('left', 'tween', 0.9, .4)}
       initial='hidden' whileInView='show' className='details'>
           <h2>Visit one of our agencies location or contact us today</h2>
           <h3>Head Office</h3>
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         </motion.div>
 
-        <motion.div variants={slideIn('right', 'tween', 0.9, .7)}
+        <motion.div variants={slideIn('right', 'tween', 0.9, .4)}
       initial='hidden' whileInView='show' className='map'>
         <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4833955742415!2d3.412033349702867!3d6.460274295303441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b3602f67e5f%3A0xc383098fd15fe567!2sOsborne%20Rd%2C%20Dolphine%20Estate%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1661621908310!5m2!1sen!2sng' title='Location' ></iframe>
         </motion.div>
@@ -51,7 +51,7 @@ const Contact = () => {
       </div>
 
       <div className='form-details'>
-        <motion.form variants={slideIn('left', 'tween', 0.9, .8)}
+        <motion.form variants={slideIn('left', 'tween', 0.9, .4)}
       initial='hidden' whileInView='show'>
           <h3 style={{margin: '10px'}}>Leave A Message</h3>
           <input type='text' placeholder='enter your name' />
@@ -61,7 +61,7 @@ const Contact = () => {
           <button className='btn-sub'>Submit</button>
         </motion.form>
 
-        <motion.div variants={slideIn('right', 'tween', 0.9, .8)}
+        <motion.div variants={slideIn('right', 'tween', 0.9, .4)}
       initial='hidden' whileInView='show' className='people'>
           <div>
             <Image src={people1} alt='people1' width={80} height={80} />
