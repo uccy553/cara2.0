@@ -444,9 +444,6 @@ nav{
 .product-detail-image{
   border-radius: 15px;
    background-color: #ebebeb;
-
-  width: 400px;
-  height: 400px;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
