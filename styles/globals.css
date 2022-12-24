@@ -1613,5 +1613,13 @@ margin-bottom: 50px;
   }
  }
 
+.bannerbtn {
+  height: 3em;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 150px;
+
+}
+
 
 
