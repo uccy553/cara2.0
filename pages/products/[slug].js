@@ -26,7 +26,7 @@ const ProductDetails2 = ({ pro2, pro1 }) => {
     <>
         
         <div className='product-detail-container mt-10'>
-            <motion.div variants={slideIn('left', 'tween', 0.9, .7)}
+            <motion.div variants={slideIn('left', 'tween', 0.9, .4)}
             initial="hidden" whileInView="show">
                 <div className='image-container'>
                     {image && (
