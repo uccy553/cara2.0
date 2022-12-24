@@ -23,7 +23,7 @@ const ProductDetails2 = ({ pro2, pro1 }) => {
   return (
     <>
         
-        <div className='product-detail-container mt-10 overflow-x-hidden'>
+        <div className='product-detail-container mt-10'>
             <motion.div variants={slideIn('left', 'tween', 0.9, .7)}
             initial="hidden" whileInView="show">
                 <div className='image-container'>
