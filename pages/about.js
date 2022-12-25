@@ -35,7 +35,7 @@ const About = () => {
 
     <h1 style={{ textAlign: 'center', marginBottom: '15px', fontSize: '2em' }}>Our people</h1>
     <div className='ourPeople'>
-      <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+      <motion.div variants={slideIn('left', 'tween', 0.9, .6)}
       initial="hidden" whileInView="show">
         <Image src={people1} alt="people1" className="about-img" />
         <h4>Amanda Hoos</h4>
@@ -49,7 +49,7 @@ const About = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sint exercitationem, error ad vitae enim? Obcaecati, eius nemo. Consequatur id perferendis assumenda provident aut delectus minus.</p>
       </motion.div>
 
-      <motion.div variants={slideIn('right', 'tween', 0.9, 1)}
+      <motion.div variants={slideIn('right', 'tween', 0.9, .6)}
       initial="hidden" whileInView="show" style={{ marginBottom: 100 }}>
         <Image src={people3} alt="people1" className="about-img" />
         <h4>Jessica Anos</h4>
