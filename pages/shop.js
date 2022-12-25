@@ -15,7 +15,7 @@ const Shop = ({ products }) => {
         </motion.div>
         <motion.h1 variants={textVariant(1.1)} className='text-center text-[3em] mt-[25px]'>Our Products</motion.h1>
 
-        <motion.div variants={slideIn('left', 'tween', 0.9, .4)}
+        <motion.div variants={slideIn('left', 'tween', 0.9, .6)}
       initial="hidden" whileInView="show" className='shop-product overflow-y-hidden'>
         {products?.map((product) =>  (  
           <div key={product.id} className='product-container2 mb-10'>
