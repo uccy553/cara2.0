@@ -20,7 +20,7 @@ const Blog = () => {
 
       <div className='blog'>
 
-        <motion.div variants={slideIn('left', 'tween', 0.9, .5)}
+        <motion.div variants={slideIn('left', 'tween', 0.9, .7)}
       initial="hidden" whileInView="show" className='blog-box'>
           <div className='blog-img'>
             <Image src={b1} alt="blog-img1" height={500}/>
@@ -35,7 +35,7 @@ const Blog = () => {
           <h1>13/01</h1>
         </motion.div>
 
-        <motion.div variants={slideIn('right', 'tween', 0.9, 1)}
+        <motion.div variants={slideIn('right', 'tween', 0.9, .7)}
       initial="hidden" whileInView="show" className='blog-box'>
           <div className='blog-img'>
             <Image src={b3} alt="blog-img1" height={400}/>
@@ -50,7 +50,7 @@ const Blog = () => {
           <h1>13/01</h1>
         </motion.div>
 
-        <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+        <motion.div variants={slideIn('left', 'tween', 0.9, .7)}
       initial="hidden" whileInView="show" className='blog-box'>
           <div className='blog-img'>
             <Image src={b6} alt="blog-img1" height={500}/>
@@ -65,7 +65,7 @@ const Blog = () => {
           <h1>13/01</h1>
         </motion.div>
 
-        <motion.div variants={slideIn('right', 'tween', 0.9, 1)}
+        <motion.div variants={slideIn('right', 'tween', 0.9, .7)}
       initial="hidden" whileInView="show" className='blog-box'>
           <div className='blog-img'>
             <Image src={b2} alt="blog-img1" height={500}/>
@@ -80,7 +80,7 @@ const Blog = () => {
           <h1>13/01</h1>
         </motion.div>
 
-        <motion.div variants={slideIn('left', 'tween', 0.9, 1)}
+        <motion.div variants={slideIn('left', 'tween', 0.9, .7)}
       initial="hidden" whileInView="show" className='blog-box'>
           <div className='blog-img'>
             <Image src={b4} alt="blog-img1" height={500}/>
