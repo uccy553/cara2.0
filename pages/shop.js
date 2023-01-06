@@ -8,7 +8,7 @@ import { slideIn, navVariants, textVariant } from '../utils/motion';
 const Shop = ({ products }) => {
  
   return (
-    <section className='overflow-x-hidden'>
+    <section className='overflow-x-hidden m-8'>
         <motion.div variants={navVariants}
         initial="hidden" whileInView="show" className='page-header' style={{ backgroundImage: `url(${shopImg.src})` }}> 
           <p className='shop-pa'>save more with coupons & up to 70% off</p>
