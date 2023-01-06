@@ -923,6 +923,7 @@ nav{
     margin-left: 20px;
     min-width: 90%;
     height: 30vh;
+    flex-direction: column;
 }
 
 }
