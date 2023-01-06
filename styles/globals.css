@@ -918,7 +918,7 @@ nav{
   border: 1px solid #fff;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .sm-banner .banner-box{
     margin-left: 20px;
     min-width: 90%;
