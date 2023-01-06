@@ -8,6 +8,8 @@ import nProgress from 'nprogress';
 
 import { Navbar, Newsletter, Footer } from '../components';
 
+nProgress.configure({ showSpinner: false });
+
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(false)
   Router.events.on("routeChangeStart", (url) => {
