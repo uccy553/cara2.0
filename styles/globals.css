@@ -1622,7 +1622,7 @@ margin-bottom: 50px;
 
 }
 
-footerBanner {
+.footerBanner {
   display: flex;
   justify-content: center;
   align-items: center;
