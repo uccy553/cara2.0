@@ -1605,7 +1605,7 @@ margin-bottom: 50px;
   display: flex;
  }
 
- @media only screen and (min-device-width: 375px) and (max-device-width: 800px) {
+ @media only screen and (min-device-width: 200px) and (max-device-width: 800px) {
   .cart-section {
     margin-top: 10em;
   }
