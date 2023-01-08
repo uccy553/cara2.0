@@ -30,8 +30,7 @@ const About = () => {
 
 Our team of talented designers work tirelessly to bring you the latest trends and timeless classics, all while using eco-friendly and sustainable materials. From casual tees and jeans to formal dresses and suits, we have something for every occasion.
 
-But we don't just stop at clothing. At Cara, we also offer a range of accessories such as handbags, shoes, and jewelry to complete your look. Plus, with our convenient online shopping and worldwide shipping, it's easier than ever to find the perfect outfit no matter where you are.</p><abbr title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quod commodi aliquam saepe, debitis eligendi praesentium a harum sunt? lo</abbr>
-
+But we don't just stop at clothing. At Cara, we also offer a range of accessories such as handbags, shoes, and jewelry to complete your look. Plus, with our convenient online shopping and worldwide shipping, it's easier than ever to find the perfect outfit no matter where you are.</p>
         <br /><br />
         <marquee bgcolor="#ccc" behavior="alternate" scrolldelay="100" scrollamount="5" width="100%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sint exercitationem, error ad vitae enim? Obcaecati, eius nemo. Consequatur provident aut delectus minus. Sunt doloribus consequuntur aliquam!</marquee>
       </motion.div>
