@@ -33,7 +33,7 @@ Our team of talented designers work tirelessly to bring you the latest trends an
 But we don't just stop at clothing. At Cara, we also offer a range of accessories such as handbags, shoes, and jewelry to complete your look. Plus, with our convenient online shopping and worldwide shipping, it's easier than ever to find the perfect outfit no matter where you are.</p><abbr title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quod commodi aliquam saepe, debitis eligendi praesentium a harum sunt? lo</abbr>
 
         <br /><br />
-        <marquee bgcolor="#ccc" behavior="alternate" scrolldelay="100" scrollamount="5" width="100%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sint exercitationem, error ad vitae enim? Obcaecati, eius nemo. Consequatur id perferendis assumenda provident aut delectus minus. Sunt doloribus consequuntur aliquam!</marquee>
+        <marquee bgcolor="#ccc" behavior="alternate" scrolldelay="100" scrollamount="5" width="100%">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sint exercitationem, error ad vitae enim? Obcaecati, eius nemo. Consequatur provident aut delectus minus. Sunt doloribus consequuntur aliquam!</marquee>
       </motion.div>
     </div>
 
